@@ -17,7 +17,6 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
-
 }
 
 ul .logo {
@@ -26,6 +25,8 @@ ul .logo {
 }
 
 .top {
+    display: flex;
+    flex-direction: column;
     background-color: #b36603;
     color: #F9FAF8;
     padding: 0 10em;
@@ -42,6 +43,7 @@ ul .logo {
     min-width: 250px;
     flex: initial;
     align-self: center;
+    border-radius: 15px;
 }
 
 
@@ -74,4 +76,150 @@ button {
     flex: initial;
     cursor: pointer;
     border: #E5E7EB solid 2px;
+}
+
+.middle-upper p {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+}
+
+.middle-upper img {
+    width: 250px;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: 5px 3px 5px #37311f;
+    cursor: pointer;
+}
+
+.middle-upper img:hover {
+    transform: scale(1.1);
+}
+
+.middle-upper .red:hover {
+    box-shadow: 0 0 50px #ee1212;
+    border: 5px solid #ee1212;
+}
+
+.middle-upper .golden:hover {
+    box-shadow: 0 0 50px gold;
+    border: 5px solid gold;
+}
+
+.middle-upper .cyan:hover {
+    box-shadow: 0 0 50px #0dd4e2;
+    border: 5px solid #0dd4e2;
+}
+
+.middle-upper .white:hover {
+    box-shadow: 0 0 50px #000000;
+    border: 5px solid #000000;
+}
+
+.middle-upper .grey:hover {
+    box-shadow: 0 0 50px #797979;
+    border: 5px solid #9c9c9c;
+}
+
+.middle-upper {
+    padding: 0 10em 4em;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle-upper ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color :#1F2937;
+    font-size: 24px;
+    font-weight: 800;
+    height: 300px;
+    justify-content: space-between;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 2em 10em;
+    gap: 5em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quote img {
+    width: 500px;
+    height: 250px;
+    box-shadow: 0 0 20px black;
+    border: 5px solid gold;
+    flex: initial;
+    border-radius: 15px;
+}
+
+#quote {
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+#person {
+    font-size: 18px;
+    font-weight: 1000;
+    color: #1F2937;
+    display: flex;
+    align-self: flex-end;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta {
+    padding: 3em 20em;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.cta button {
+    background-color: #3882F6;
+}
+
+.cta div {
+    background-color: #3882F6;
+    padding: 1em 6em;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 250px;
+}
+
+.cta p {
+    flex-shrink: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    word-spacing: 2px;
+    padding: 2em 0;
+    
 }

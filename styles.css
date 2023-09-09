@@ -35,11 +35,13 @@ ul .logo {
     margin-left: auto;
 }
 
-.header-img img {
-    height: 400px;
+.header-low img {
     width: 600px;
+    height: 250px;
     opacity: 0.75;
-    flex: 0 1 0;
+    min-width: 250px;
+    flex: initial;
+    align-self: center;
 }
 
 
@@ -72,9 +74,4 @@ button {
     flex: initial;
     cursor: pointer;
     border: #E5E7EB solid 2px;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
 }

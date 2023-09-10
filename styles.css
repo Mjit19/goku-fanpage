@@ -111,7 +111,7 @@ button {
     border: 5px solid #0dd4e2;
 }
 
-.middle-upper .white:hover {
+.middle-upper .black:hover {
     box-shadow: 0 0 50px #000000;
     border: 5px solid #000000;
 }

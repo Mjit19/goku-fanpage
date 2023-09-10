@@ -187,10 +187,12 @@ button {
 }
 
 .cta {
-    padding: 3em 20em;
+    padding: 2em 20em;
     font-size: 20px;
     font-weight: 700;
     color: white;
+    display: flex;
+    justify-content: center;
 }
 
 .cta button {
@@ -199,19 +201,22 @@ button {
 
 .cta div {
     background-color: #3882F6;
-    padding: 1em 6em;
+    padding: 1em 4em;
     border-radius: 25px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     min-width: 250px;
+    flex: 1;
+    gap: 8px 12px;
 }
 
 .cta p {
     flex-shrink: 0;
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
 }
 
 .footer {
